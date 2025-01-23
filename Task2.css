@@ -1,0 +1,223 @@
+
+*{
+  text-decoration: none;
+}.container{
+    box-shadow: 5px 10px 20px #f4f4f4;
+    width: 90%;
+    height:auto;
+    margin: auto;
+    margin-top: 50px;
+}
+
+  .navdiv{
+    background-color: rgb(6, 11, 29);
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 50px;
+    padding: 1px;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .logo p{
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+    width: 2%;
+   }
+  .links{
+    margin-top: 20px;
+    display: flex;
+    margin-right: 200px;
+  }
+   li{
+    list-style: none;
+    /* margin-left: 10px; */
+    
+  }
+   li a{
+    color: grey;
+    font-size: 18px;
+    /* margin-left: 40px; */
+    /* margin-right: 120px;
+    justify-content: space-around; */
+    margin-right: 50px;
+    
+
+  }
+  li a:hover{
+         color: white;
+         background: aqua;
+  }
+  .btn button{
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 12px;
+    padding: 7px 10px;
+  }
+  #btn1{
+    
+    border: 3px dotted white;
+    background-color: rgb(6, 11, 29);
+    border-radius: 10px;
+    color: white;
+  }
+  #btn1:hover{
+    color: white;
+    background: aqua;
+  }
+  #btn2{
+    border: 1px solid aqua;
+    background-color: aqua;
+  }
+  #btn2:hover{
+    background-color: white;
+    color: white;
+  }
+  .main{
+    background-color: rgb(41, 60, 74,255);
+    border: 5px solid rgb(41, 60, 74,255);
+    width: 89.5%;
+    margin-left: 50px;
+    height: 300px;
+  }
+  #text{
+    /* border: 1px solid red; */
+    width: 45%;
+    margin-left: 50px;
+  }
+  #text p{
+    color: white;
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .btnbtn button{
+    padding: 10px;
+    margin-left: 150px;
+  }
+  .btnbtn button:hover{
+  color: black;
+  }
+  #btn11{
+    border: 3px solid aqua;
+    background-color: aqua;
+    
+      }
+      #btn11:hover{
+      background-color: white;
+      }
+   #btn22{
+        border: 1px dotted white;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(41, 60, 74,255);
+        margin-left: -1px;
+      }
+       #btn22:hover{
+       color: black;
+       background: white;
+       }
+  #img{
+    /* border: 1px solid green; */
+    width: 53%;
+    margin-top: -260px;
+    margin-left: 550px;
+
+  }
+  #img img{
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 5px;
+    width: 42%;
+  }
+  .para{
+    margin-left: 350px;
+  }
+  .para h1{
+    margin-left: 200px;
+  }
+  
+  .box{
+    width: 89.5%;
+    height: 330px;
+    margin-left: 50px;
+  }
+  #box1, #box2, #box3, #box4, #box5, #box6{
+    border: 1px solid rgb(41, 60, 74,255);
+    background-color: rgb(41, 60, 74,255);
+    color: white;
+    /* padding: 1px 10px; */
+    width: 18%;
+    flex-wrap: wrap;
+  }
+  .box h6{
+    margin-left: 10px;
+    /* margin-top: -1px; */
+  }
+  .box p{
+    margin-top: -20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+  }
+  #box1{
+    margin-right: 60%;
+    margin-left: 10%;
+  }
+  #box2{
+    margin: -145px 40% 0px 40%;
+  }
+  #box3{
+    margin: -140px 10% 0px 70%;
+  }
+  #box4{
+
+    margin: 35px 0px 0px 70% ;
+  }
+  #box5{
+    margin: -135px 32% 0px 40%; 
+  }
+  #box6{
+    margin: -145px 62% 0px 10%;
+  }
+  i{
+    color:aqua;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 2px;
+  }
+  .foot{
+    border: 1px solid rgb(41, 60, 74,255);
+    background-color: rgb(41, 60, 74,255);
+    width: 89%;
+    margin-left: 50px;
+    height: 300px;
+    color: white;
+   
+  }
+  #text1{
+    width: 50%;
+    height: 300px;
+    margin-left: 150px;
+  }
+  #text1 p{
+    margin-top: 70px;
+    margin-left: 70px;
+  }
+  #strt{
+    border: 1px solid aqua;
+    color: white;
+    background-color: aqua;
+    padding: 10px;
+    margin-left: 90px;
+  }
+  #img1{
+    width: 43%;
+    height: 300px;
+    float: right;
+    margin-top: -300px;
+    margin-right: 40px;
+  }
+  #img1 img{
+    border-radius: 20px;
+    margin-top: -20px;
+    margin-left: 50px;
+  }
